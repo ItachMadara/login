@@ -1,0 +1,74 @@
+.form:hover{
+    box-shadow: 6px, 8px, 12px, rgba(250, 248, 248);
+    transform:scale(1.05);
+    border:  100px;
+    background-color: rgba(255, 255, 255, 0.801);
+    background: transparent;
+    justify-content: center;
+}
+#heading{
+    position: relative;
+    right: 40px;
+    text-align: center;
+    margin: 2em;
+    color: white;
+    font-size: 2.2em;
+    background-position: center;
+}
+.field{
+    position: relative;
+    left: 500px;
+    width: 200px;
+    margin:20px 0 0 20px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 0 0 10px, 10px;
+    padding: 20px;
+    border: 50px;
+    outline: none;
+    color: white;
+    background-color:#3b3939;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+.button1{
+    position: relative;
+    left: 420px;
+    margin: 20px, 0 0 20px;
+    padding: 15px;
+    border-radius:5px;
+    width: 200px;
+    text-align: center;
+    justify-content: center; 
+    outline: 25px;
+    transition: .4s ease-in-out;
+    background-color: brown;
+    color: white;
+
+}
+.button2{
+    position: relative;
+    left: 420px;
+    margin:20px 0 0 20px;
+    padding: 15px;
+border-radius: 5px;
+width: 200px;
+text-align: center;
+justify-content: center;
+transition: .5s ease-in-out;
+background-color: #442121;
+color: aliceblue;
+}
+.button3{
+    position: relative;
+    left: 530px;
+    margin: 5px;
+    padding: 15px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+}
